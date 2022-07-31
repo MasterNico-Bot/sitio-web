@@ -84,7 +84,9 @@ const Home: NextPage = () => {
           autoroles, sorteos, bienvenidas, alertas de Twitch, diversión y mucho más.
         </Text>
         <Stack mt={5} gap={2} direction={['column', 'row']}>
-          <Button colorScheme="orange">Invitar</Button>
+          <Link href="/api/invite">
+            <Button colorScheme="orange">Invitar</Button>
+          </Link>
           <Link href="/commands">
             <Button variant="outline">Comandos</Button>
           </Link>

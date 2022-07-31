@@ -83,7 +83,9 @@ const Home: NextPage = () => {
           Mira los comandos del bot.
         </Text>
         <Stack mt={5} gap={2} direction={['column', 'row']}>
-          <Button colorScheme="orange">Invitar</Button>
+          <Link href="/api/invite">
+            <Button colorScheme="orange">Invitar</Button>
+          </Link>
           <Link href="/">
             <Button variant="outline">Inicio</Button>
           </Link>

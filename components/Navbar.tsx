@@ -49,7 +49,7 @@ export const Navbar = () => (
               Términos de Servicio
             </MenuItem>
           </Link>
-          <Link href={`/terms`}>
+          <Link href={`/policy`}>
             <MenuItem _hover={{ bg: 'whiteAlpha.300' }} color="gray.300">
               Política de Privacidad
             </MenuItem>
