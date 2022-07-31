@@ -11,7 +11,11 @@ import {
 } from '@chakra-ui/react';
 import Link from 'next/link';
 
-const allPartners = [{ name: 'Kiaura', id: 'kiaura' }];
+const allPartners = [
+  { name: 'Kiaura', id: 'kiaura' },
+  { name: 'Sophia Bot', id: 'sophia-bot' },
+  { name: 'Zeew', id: 'zeew' }
+];
 
 export const Navbar = () => (
   <Flex
