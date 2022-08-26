@@ -36,6 +36,10 @@ const Home: NextPage = () => {
   useEffect(() => {
     axios.get('https://botmasternicorico.herokuapp.com/commands').then(({ data }) => {
       setData(data);
+    }).catch(() => {
+      axios.get('https://app-name-uw.herokuapp.com/commands').then(({ data }) => {
+        setData(data);
+      })
     });
   }, []);
 
